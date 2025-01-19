@@ -6,7 +6,6 @@ body {
 * {
   font-size: 1.1em;
   font-family: 'Courier New', monospace, serif;
-  padding: .5em;
 }
  
 /* Chrome, Safari, Edge, Opera */
@@ -24,6 +23,7 @@ input[type=number] {
 header {
   background-color: #111222;
   color: white;
+  padding: .5em;
 }
 
 #tip {
@@ -34,6 +34,7 @@ header {
   align-content:center;
   justify-content:center;
   flex-wrap: wrap;
+  padding: .5em;
 }
 
 input {
@@ -57,4 +58,8 @@ button:hover {
 
 button:focus {
   opacity: .5;
+}
+
+section {
+  padding: .5em;
 }
