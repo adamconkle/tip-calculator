@@ -24,7 +24,7 @@ function calculateTip(selectedPercentage) {
   document.getElementById("tipAmount15").innerHTML = `15% Tip = $${tip15.toFixed(2)}`;
   document.getElementById("tipAmount20").innerHTML = `20% Tip = $${tip20.toFixed(2)}`;
   document.getElementById("tipAmount25").innerHTML = `25% Tip = $${tip25.toFixed(2)}`;
-  document.getElementById("newTotal").innerHTML = `Selected Tip Total = $${totalWithSelectedTip.toFixed(2)}`;
+  document.getElementById("newTotal").innerHTML = `New Total = $${totalWithSelectedTip.toFixed(2)}`;
 }
 
 // The following handles the custom tip portion
