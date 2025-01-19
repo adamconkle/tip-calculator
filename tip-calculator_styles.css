@@ -22,7 +22,7 @@ header {
 }
 
 #tip {
-  background-color: #00a170;
+  background-color: #cdfbe4;
   padding: .5em;
   height: 5em;
   display:flex;
@@ -37,7 +37,7 @@ input {
 }
 
 button {
-  background-color: #cdfbe4;
+  background-color: #00a170;
   border: none;
   border-radius: .5rem;
   padding: .2rem;
