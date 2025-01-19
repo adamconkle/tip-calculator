@@ -27,7 +27,7 @@ header {
   height: 5em;
   display:flex;
   align-items:center;
-  align-content:space-around;
+  align-content:space-between;
   justify-content:space-around;
   flex-wrap: wrap;
 }
