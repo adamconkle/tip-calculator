@@ -35,6 +35,8 @@ header {
   justify-content:center;
   flex-wrap: wrap;
   padding: .5em;
+  width: 100%;
+  box-sizing: border-box; /* Prevent padding from exceeding width */
 }
 
 input {
