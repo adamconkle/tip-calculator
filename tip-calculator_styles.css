@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: .5em;
 }
  
 /* Chrome, Safari, Edge, Opera */
@@ -23,12 +23,10 @@ input[type=number] {
 header {
   background-color: #111222;
   color: white;
-  padding: .5em;
 }
 
 #tip {
   background-color: #00a170;
-  padding: .5em;
   height: 5em;
   display:flex;
   align-items:center;
