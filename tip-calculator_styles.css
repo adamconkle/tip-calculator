@@ -1,11 +1,12 @@
 * {
   font-size: 1.1em;
   font-family: 'Courier New', monospace, serif;
+  padding: .5em;
 }
 
 body {
   margin: 0;
-  padding: .5em;
+  padding: 0;
 }
  
 /* Chrome, Safari, Edge, Opera */
