@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="/tip-calculator_styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Tip Calculator</h1>
+    <p>Don't get cheated. Verify the tip percentages at the bottom of your receipt.</p>
+  </header>
+
+  <section id="tip">
+    <form> 
+      <input type="text" size="10" placeholder="Enter Bill Total" id="billInput">
+        <button type="button" onclick="calculateTip(15)" id="t15">15%</button>
+        <button type="button" onclick="calculateTip(20)" id="t20">20%</button>
+        <button type="button" onclick="calculateTip(25)" id="t25">25%</button>
+        <button type="button" onclick="customTip()" id="enterOther">Other</button>
+    </form>
+  </section>
+
+
+  <section id="total">
+    <p id="billTotalText">Bill Total = </p>
+    <p id="tipAmount15">Tip 15% = </p>
+    <p id="tipAmount20">Tip 20% = </p>
+    <p id="tipAmount25">Tip 25% = </p>
+    <p id="tipAmountCustom">Custom Tip = </p>
+    <p id="newTotal">New Total = </p>
+  </section> 
+
+ <script src="tip-calculator_script.js"></script> 
+
+</body>
+</html>
+
+
