@@ -1,0 +1,38 @@
+* {
+  font-size: 1.1em;
+  font-family: 'Courier New', monospace, serif;
+}
+
+header {
+  background-color: #111222;
+  color: white;
+  padding: .5em;
+}
+
+#tip {
+  background-color: purple;
+  padding: .5em;
+  height: 3em;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: gold;
+  border: none;
+  border-radius: .5rem;
+  padding: .2rem;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+button:focus {
+  opacity: .6;
+}
