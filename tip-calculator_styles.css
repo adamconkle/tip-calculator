@@ -15,9 +15,8 @@ header {
   height: 5em;
   display:flex;
   align-items:center;
-  justify-content:space-evenly;
+  justify-content:space-around;
   flex-wrap: wrap;
-  space
 }
 
 button {
