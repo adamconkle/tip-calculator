@@ -9,10 +9,11 @@ function calculateTip(selectedPercentage) {
       return;
   }
     
-    // Calculate tip amounts for 15%, 20%, and 25%
+    // Calculate tip amounts for 10% 15%, 20%
+  const tip10 = bill * 0.10;  
   const tip15 = bill * 0.15;
   const tip20 = bill * 0.20;
-  const tip25 = bill * 0.25;
+
 
   // Calculate the total for the selected tip percentage
   const selectedTip = bill * (selectedPercentage / 100);
@@ -21,9 +22,9 @@ function calculateTip(selectedPercentage) {
   
   // Update the DOM with the results
   document.getElementById("billTotalText").innerHTML = `Bill Total = $${bill.toFixed(2)}`;
+  document.getElementById("tipAmount10").innerHTML = `10% Tip = $${tip10.toFixed(2)}`;
   document.getElementById("tipAmount15").innerHTML = `15% Tip = $${tip15.toFixed(2)}`;
   document.getElementById("tipAmount20").innerHTML = `20% Tip = $${tip20.toFixed(2)}`;
-  document.getElementById("tipAmount25").innerHTML = `25% Tip = $${tip25.toFixed(2)}`;
   document.getElementById("newTotal").innerHTML = `New Total = $${totalWithSelectedTip.toFixed(2)}`;
 }
 
