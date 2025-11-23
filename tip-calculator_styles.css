@@ -68,17 +68,28 @@ section {
   background-color: #111222;
 }
 
+
 #video {
   background-color: #00a170;
-  height: 5em;
+  /*height: 5em;
   display:flex;
   flex-direction: column;
   align-items:center;
   align-content:center;
   justify-content:center;
   flex-wrap: wrap;
-  padding: .5em;
+  padding: .5em;*/
 }
+
+.video-responsive {
+  width: 100%;
+  max-width: 400px; /* adjust as needed */
+  height: auto;     /* keeps proper portrait ratio */
+  display: block;
+  margin: 0 auto;   /* centers the video */
+  padding: 20px 0;  /* optional spacing */
+}
+
 
 #supportFeedback {
   display: flex;
