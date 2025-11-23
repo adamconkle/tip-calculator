@@ -31,6 +31,12 @@ header {
   align-content: center;
 }
 
+#hero {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 #tip {
   background-color: #00a170;
   height: 5em;
