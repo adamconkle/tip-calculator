@@ -36,6 +36,7 @@ section {
 }
 
 #hero {
+  background-color: #00a170;
   display: flex;
   justify-content: center;
   align-content: center;
