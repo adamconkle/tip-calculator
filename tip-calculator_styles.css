@@ -48,6 +48,9 @@ section {
 #store {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  padding: 1em;
   background-color: #111222;
 }
 
