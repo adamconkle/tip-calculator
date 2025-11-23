@@ -63,22 +63,16 @@ section {
   padding: .5em;
 }
 
-#video {
-  display: flex;
-  flex-direction: row;
-  background-color: #111222;
-}
-
 #supportFeedback {
   display: flex;
   flex-direction: row;
-  background-color: #00a170;
+  background-color: #111222;
 }
 
 #featureRequest {
   display: flex;
   flex-direction: row;
-  background-color: #111222;
+  background-color: #00a170;
 }
 
 /*
