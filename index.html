@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K7NBZLZHCT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-K7NBZLZHCT');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="stylesheet" type="text/css" href="tip-calculator_styles.css" />
+</head>
+<body>
+  <header>
+    <img src="/images/mt_logo1.png" alt="Mint Tipper Logo" width="200" height="200">
+    <h1><span style="color:lightgreen">MINT TIPPER - </span></span>Tip Calculator</h1>
+    <p>Don't get cheated. Verify the tip percentages at the bottom of your receipt.</p>
+  </header>
+
+  <section id="tip">
+    <form> 
+      <input type="number" size="17" placeholder="Enter Bill Amount" id="billInput">
+        <button type="button" onclick="calculateTip(10)" id="t10">10%</button>
+        <button type="button" onclick="calculateTip(15)" id="t15">15%</button>
+        <button type="button" onclick="calculateTip(20)" id="t20">20%</button>
+        <button type="button" onclick="customTip()" id="enterOther">Other</button>
+    </form>
+  </section>
+
+
+  <section id="total">
+    <p id="billTotalText">Bill Total = </p>
+    <p id="tipAmount10">Tip 10% = </p>
+    <p id="tipAmount15">Tip 15% = </p>
+    <p id="tipAmount20">Tip 20% = </p>
+    <p id="tipAmountCustom">Custom Tip = </p>
+    <p id="newTotal">New Total = </p>
+  </section> 
+
+    
+  <footer>
+    <a href="/terms-and-conditions.html">Terms and Conditions</a>
+  </footer>
+
+
+  <script src="tip-calculator_script.js"></script> 
+
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="adamcdesigns" data-description="Support me on Buy me a coffee!" data-message="If you like Mint Tip, please consider buying me a coffee. " data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+
+<!-- Default Statcounter code for Mint Tipper
+https://minttipper.com -->
+<script type="text/javascript">
+var sc_project=13084466; 
+var sc_invisible=1; 
+var sc_security="3d743872"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13084466/0/3d743872/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+    
+</body>
+</html>
