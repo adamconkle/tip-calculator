@@ -80,7 +80,6 @@ section {
   flex-wrap: wrap;
   padding: .5em;*/
 }
-
 .video-responsive {
   width: 100%;
   max-width: 400px; /* adjust as needed */
@@ -88,7 +87,8 @@ section {
   display: block;
   margin: 0 auto;   /* centers the video */
   padding: 20px 0;  /* optional spacing */
-  border: 1px solid white;
+  border: 1px solid black;
+  background-color: black;
 }
 
 
