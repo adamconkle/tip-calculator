@@ -31,16 +31,22 @@ header {
   align-content: center;
 }
 
+section {
+  padding: .5em;
+}
+
 #hero {
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-direction: column;
 }
 
-#tip {
+#video {
   background-color: #00a170;
   height: 5em;
   display:flex;
+  flex-direction: column;
   align-items:center;
   align-content:center;
   justify-content:center;
@@ -48,6 +54,22 @@ header {
   padding: .5em;
 }
 
+#store {
+  display: flex;
+  flex-direction: row;
+}
+
+#video {
+  display: flex;
+  flex-direction: row;
+}
+
+#featureRequest {
+  display: flex;
+  flex-direction: row;
+}
+
+/*
 input {
   margin-bottom: .5em;
 }
@@ -70,10 +92,7 @@ button:hover {
 button:focus {
   opacity: .5;
 }
-
-section {
-  padding: .5em;
-}
+*/
 
 footer {
   padding: .5em;
