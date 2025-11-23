@@ -14,34 +14,25 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing</title>
+    <title>Mint Tipper - Landing</title>
     <link rel="stylesheet" type="text/css" href="tip-calculator_styles.css" />
 </head>
 <body>
   <header>
-    <img src="/images/mt_logo1.png" alt="Mint Tipper Logo" width="200" height="200">
-    <h1><span style="color:lightgreen">MINT TIPPER - </span></span>Tip Calculator</h1>
-    <p>Don't get cheated. Verify the tip percentages at the bottom of your receipt.</p>
+    <img src="/images/mt_logo1.png" alt="Mint Tipper Logo" width="300" height="300">
   </header>
 
+  <section id="hero">
+      <h1> Mint Tipper </h1>
+      <p>Don't get cheated. Verify the tip percentages at the bottom of your receipt with this easy to use tip calculator.</p>
+  </section>
+    
+
   <section id="tip">
-    <form> 
-      <input type="number" size="17" placeholder="Enter Bill Amount" id="billInput">
-        <button type="button" onclick="calculateTip(10)" id="t10">10%</button>
-        <button type="button" onclick="calculateTip(15)" id="t15">15%</button>
-        <button type="button" onclick="calculateTip(20)" id="t20">20%</button>
-        <button type="button" onclick="customTip()" id="enterOther">Other</button>
-    </form>
   </section>
 
 
   <section id="total">
-    <p id="billTotalText">Bill Total = </p>
-    <p id="tipAmount10">Tip 10% = </p>
-    <p id="tipAmount15">Tip 15% = </p>
-    <p id="tipAmount20">Tip 20% = </p>
-    <p id="tipAmountCustom">Custom Tip = </p>
-    <p id="newTotal">New Total = </p>
   </section> 
 
     
