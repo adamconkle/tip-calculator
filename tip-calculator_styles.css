@@ -27,6 +27,7 @@ header {
   color: white;
   padding: .5em;
   display: flex;
+  
   justify-content: center;
   align-content: center;
 }
@@ -38,9 +39,16 @@ section {
 #hero {
   background-color: #00a170;
   display: flex;
+  text-align: center;
   justify-content: center;
   align-content: center;
   flex-direction: column;
+}
+
+#store {
+  display: flex;
+  flex-direction: row;
+  background-color: #111222;
 }
 
 #video {
@@ -55,19 +63,22 @@ section {
   padding: .5em;
 }
 
-#store {
-  display: flex;
-  flex-direction: row;
-}
-
 #video {
   display: flex;
   flex-direction: row;
+  background-color: #111222;
+}
+
+#supportFeedback {
+  display: flex;
+  flex-direction: row;
+  background-color: #00a170;
 }
 
 #featureRequest {
   display: flex;
   flex-direction: row;
+  background-color: #111222;
 }
 
 /*
