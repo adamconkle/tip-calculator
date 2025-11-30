@@ -101,12 +101,16 @@ section {
   display: flex;
   flex-direction: row;
   background-color: #111222;
+  padding: 50px;
+  text-align: center;
 }
 
 #featureRequest {
   display: flex;
   flex-direction: row;
   background-color: #00a170;
+  padding: 50px;
+  text-align: center;
 }
 
 /*
