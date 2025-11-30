@@ -53,8 +53,13 @@ section {
   flex-direction: column;
 }
 
-#hero h1 p {
+#hero h1 {
   font-size: 4rem;
+  color: white;
+}
+
+#hero p {
+  font-size: 2rem;
   color: white;
 }
 
